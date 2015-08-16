@@ -20,6 +20,7 @@ Parts of code adapted from Robin Wilson's [bbp profile information](https://word
 1. Upload the plugin zip to the `/wp-content/plugins/` directory
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Activate the Online/Offline status message by going to 'Settings' -> 'bbp user online status'
+4. Style li.bbp-online-status span.bbp-offline and li.bbp-online-status span.bbp-online
 
 == Frequently Asked Questions ==
 
@@ -42,6 +43,9 @@ if the user has been inactive for more than 15 minuets, there status is set as o
 * Make text configurable
 
 == Changelog ==
+
+= 1.1 =
+* added CSS styling (from https://github.com/jacobwarduk/bbp-user-online-status/commit/55a3084ee106fe5d911ce2191a28091092da7b6c)
 
 = 1.0 =
 * basic Online/Offline message
